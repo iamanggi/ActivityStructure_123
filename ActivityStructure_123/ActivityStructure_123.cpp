@@ -17,5 +17,15 @@ int main() {
 	mhs1.nama = "Anggi Puspita";
 	mhs1.alamat = "Cirebon";
 	mhs1.umur = 18;
+
+	cout << "masukan NIM : ";
+	cin >> mhs2.NIM;
+	cout << "masukan Nama : ";
+	cin >> mhs2.nama;
+	cout << "masukan alamat : ";
+	cin >> mhs2.alamat;
+	cout << "masukan umur : ";
+	cin >> mhs2.umur;
+
 }
 
