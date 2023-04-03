@@ -30,6 +30,7 @@ int main() {
 		cout << "\n\tMasukan Kota : ";
 		cin.getline(mhs[i].alamat.Kota, 25);
 		cout << "\n masukan umur : ";
+		cin >> mhs[i].umur;
 		cin.ignore(1, '\n');
 
 	}
